@@ -32,6 +32,7 @@ You can specify the boot images to be served with the variable `pxeserver_images
 | `initrd_url`     | URL where to download the initrd image.                           |
 | `kickstart_url`  | URL where to download the kickstart file. May be omitted          |
 | `kickstart_path` | Location where to copy the kickstart file from. May be omitted    |
+| `options`        | Options to pass to kernel. Remove kickstart usage                 |
 | `label`          | Label for the PXE boot menu entry of this image.                  |
 
 ## Dependencies
